@@ -1,0 +1,3 @@
+A naive algorithm for square (n x n) matrix multiplication has time complexity O(n^3) (verify this!). In 1969, Strassen invented an algorithm for matrix multiplication, and claimed that this algorithm had time complexity O(n^2.8074).
+
+Your friend comes to you, and says: "I have implemented both of these algorithms, and they both work correctly. But when multiplying two large matrices (250x250), the naive algorithm took 2.73 seconds while Strassen's took 3.98 seconds. Therefore, Strassen must have made a mistake in his calculations, because his algorithm is clearly slower." How would you respond?
